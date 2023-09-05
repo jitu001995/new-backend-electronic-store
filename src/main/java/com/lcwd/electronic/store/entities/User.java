@@ -49,6 +49,10 @@ public class User implements UserDetails {
     @OneToOne(mappedBy = "user",cascade = CascadeType.REMOVE)
     private  Cart cart;
 
+
+
+//    private String provider;
+
     //must have to implement
     //TODO:
     @Override
